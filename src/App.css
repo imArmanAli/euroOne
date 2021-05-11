@@ -316,29 +316,47 @@ footer a {
 }
 @media (max-width: 600px) {
   .default_box {
-    width: 175px;
-    padding: 26px 10px;
-    margin: 6px 10px;
-    border: 1px solid #1ac6da;
-    border-radius: 4px;
-    color: #1ac6da;
-    background-color: #fff;
-    cursor: pointer;
-    height: 86px;
+    width: 175px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 86px !important;
+  }
+  .default_wrapper button {
+    width: 82% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -93px !important;
   }
   .screen9 {
     margin-left: 0;
   }
   .default_box i {
-    font-size: 19px;
+    font-size: 19px !important;
+    margin-top: -8px !important;
   }
   .default_box h3 {
-    margin-top: -2px;
-    font-size: 13px;
+    margin-top: -2px !important;
+    font-size: 13px !important;
+  }
+  .default_wrapper {
+    width: 100%;
+    margin-left: 63px;
   }
   .step6 .default_box {
-    width: 100%;
-    height: 45px;
+    width: 100% !important;
+    height: 45px !important;
+  }
+  .step5 p {
+    margin-left: -48px;
   }
   .default_box {
     width: 175px;
@@ -358,17 +376,20 @@ footer a {
     height: 39px;
     font-size: 15px;
   }
+  .screen9 .form-row {
+    margin-left: 54px !important;
+  }
   .screen9 button {
-    width: 77%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    font-size: 15px;
-    height: 43px;
-    margin-left: 25px;
+    width: 77% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    font-size: 15px !important;
+    height: 43px !important;
+    margin-left: 25px !important;
   }
 
   .l {
@@ -377,100 +398,7 @@ footer a {
     margin-right: 230px;
   }
 }
-@media (max-width: 449px) {
-  .screen9 {
-    margin-left: 0;
-  }
-  .default_box {
-    width: 160px;
-    padding: 26px 10px;
-    margin: 6px 10px;
-    border: 1px solid #1ac6da;
-    border-radius: 4px;
-    color: #1ac6da;
-    background-color: #fff;
-    cursor: pointer;
-    height: 86px;
-  }
-}
-@media (max-width: 599px) {
-  .screen9 {
-    margin-left: 41px;
-  }
-  .str {
-    width: 296px;
-    height: 38px;
-    font-size: 16px;
-  }
-  .l {
-    /* float: left; */
-    font-size: 11px;
-    margin-right: 200px;
-  }
-  .screen9 button {
-    width: 59%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 38px;
-    margin-left: -43px;
-    font-size: 13px;
-  }
-  .default_box {
-    width: 175px;
-    padding: 26px 10px;
-    margin: 6px 10px;
-    border: 1px solid #1ac6da;
-    border-radius: 4px;
-    color: #1ac6da;
-    background-color: #fff;
-    cursor: pointer;
-    height: 86px;
-    margin-left: 45px;
-  }
-}
 
-@media (max-width: 518px) {
-  .screen9 {
-    margin-left: 0;
-  }
-  .default_box {
-    width: 175px;
-    padding: 26px 10px;
-    margin: 6px 10px;
-    border: 1px solid #1ac6da;
-    border-radius: 4px;
-    color: #1ac6da;
-    background-color: #fff;
-    cursor: pointer;
-    height: 86px;
-    margin-left: 30px;
-  }
-  @media (max-width: 518px) {
-    .screen9 {
-      margin-left: 0;
-    }
-    .default_box {
-      width: 170px;
-      padding: 26px 10px;
-      margin: 6px 10px;
-      border: 1px solid #1ac6da;
-      border-radius: 4px;
-      color: #1ac6da;
-      background-color: #fff;
-      cursor: pointer;
-      height: 86px;
-      margin-left: 30px;
-    }
-  }
-  .step6 .default_box {
-    width: 96%;
-    height: 45px;
-  }
-}
 @media (max-width: 400px) {
   .screen8 {
     margin-left: 26px !important;
@@ -542,189 +470,43 @@ footer a {
     font-size: 15px;
   }
 }
-@media (max-width: 338px) {
+
+@media (max-width: 350px) {
   .screen9 {
-    margin-left: 0;
+    margin-left: -78px;
   }
+  .screen9 button {
+    width: 97%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    height: 35px;
+    margin-left: 76px;
+    font-size: 12px;
+  }
+  .str {
+    width: 296px;
+    height: 36px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px) {
   .default_box {
-    width: 88px;
-    padding: 26px 10px;
-    margin: 6px 10px;
-    border: 1px solid #1ac6da;
-    border-radius: 4px;
-    color: #1ac6da;
-    background-color: #fff;
-    cursor: pointer;
-    height: 86px;
-    margin-left: 30px;
-  }
-  .default_box h3 {
-    margin-top: -2px;
-    font-size: 10px;
-  }
-  .default_box i {
-    font-size: 15px;
-  }
-}
-@media (max-width: 350px) {
-  .screen9 {
-    margin-left: -78px;
-  }
-  .screen9 button {
-    width: 97%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 35px;
-    margin-left: 76px;
-    font-size: 12px;
-  }
-  .str {
-    width: 296px;
-    height: 36px;
-    font-size: 13px;
-  }
-}
-@media (max-width: 320px) {
-  .screen9 {
-    margin-left: -78px;
-  }
-  .screen9 button {
-    width: 106%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 32px;
-    margin-left: 76px;
-    font-size: 10px;
-  }
-  .str {
-    width: 289px;
-    height: 35px;
-    font-size: 12px;
-  }
-}
-@media (max-width: 350px) {
-  .screen9 {
-    margin-left: -78px;
-  }
-  .screen9 button {
-    width: 97%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 35px;
-    margin-left: 76px;
-    font-size: 12px;
-  }
-  .str {
-    width: 296px;
-    height: 36px;
-    font-size: 13px;
-  }
-}
-@media (max-width: 390px) {
-  .screen9 {
-    margin-left: -78px;
-  }
-  .screen9 button {
-    width: 101%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 41px;
-    margin-left: 76px;
-    font-size: 12px;
-  }
-  .str {
-    width: 351px;
-    height: 40px;
-    font-size: 14px;
-  }
-
-  .screen8 {
-    margin-left: 26px !important;
-  }
-  .plz {
-    width: 82px !important;
-    height: 35px !important;
-    font-size: 18px !important;
-  }
-  .lab {
-    font-size: 13px;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .ort {
-    width: 193px !important;
-    height: 36px !important;
-    font-size: 20px !important;
-    margin-left: -65px !important;
-  }
-  .screen8 .str {
-    width: 200px !important;
-    font-size: 20px !important;
-    margin-left: -2px !important;
-  }
-  .lab3 {
-    margin-left: -33px;
-    font-size: 12px;
-  }
-  .screen8 button {
-    width: 86% !important;
-    color: #fff !important;
-    padding: 10px 5px !important;
-    margin: 20px 0 !important;
-    border: 2px solid #000 !important;
-    background: #000 !important;
+    width: 91px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
     border-radius: 4px !important;
-    margin-left: -51px !important;
-    height: 43px !important;
-    font-size: 16px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 86px !important;
+    margin-left: 30px !important;
   }
-  .nr {
-    height: 39px !important;
-    width: 74px !important;
-    font-size: 20px !important;
-    margin-left: 44px !important;
-  }
-}
-@media (max-width: 300px) {
-  .screen9 {
-    margin-left: -51px;
-  }
-  .screen9 button {
-    width: 85%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 33px;
-    margin-left: 76px;
-    font-size: 9px;
-  }
-  .str {
-    width: 215px;
-    height: 31px;
-    font-size: 11px;
-  }
-}
-@media (max-width: 368px) {
   .screen9 {
     margin-left: -78px;
   }
@@ -741,62 +523,12 @@ footer a {
     font-size: 12px;
   }
   .str {
-    width: 306px;
+    width: 296px;
     height: 36px;
     font-size: 13px;
   }
 }
-@media (max-width: 432px) {
-  .form-m-d {
-    width: 71px;
-    text-align: center;
-    font-size: 11pt;
-  }
-  .form-group-custom {
-    padding: 2px;
-    margin-left: 0px;
-  }
-  .form-y {
-    width: 138px;
-    text-align: center;
-    font-size: 11pt;
-  }
-  .form-row {
-    margin-left: 50px;
-  }
-  .default_wrapper .btns7 {
-    margin-left: 47px;
-    width: 118%;
-    height: 42px;
-    font-size: 15px;
-  }
-}
 
-@media (max-width: 396px) {
-  .form-m-d {
-    width: 93px;
-    text-align: center;
-    font-size: 13pt;
-  }
-  .form-group-custom {
-    padding: 2px;
-    margin-left: 0px;
-  }
-  .form-y {
-    width: 138px;
-    text-align: center;
-    font-size: 13pt;
-  }
-  .form-row {
-    margin-left: 4px;
-  }
-  .default_wrapper .btns7 {
-    margin-left: -4px;
-    width: 155%;
-    height: 42px;
-    font-size: 15px;
-  }
-}
 @media (max-width: 350px) {
   .form-m-d {
     width: 81px;
@@ -870,6 +602,87 @@ footer a {
   }
 }
 @media (max-width: 450px) {
+  .step10 p {
+    margin-left: -44px !important;
+  }
+  .step4 p {
+    margin-left: -34px !important;
+  }
+  .step2 p {
+    margin-left: -24px !important;
+    font-size: 13px !important;
+  }
+  .screen9 .form-row {
+    margin-left: 4px !important;
+  }
+  .step6 p {
+    margin-left: -30px !important;
+  }
+  .form_btn_big .default_box {
+    width: 89% !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 57px !important;
+    margin-left: 28px !important;
+  }
+  .ort {
+    width: 268px !important;
+    height: 42px !important;
+    font-size: 20px !important;
+    margin-left: -63px !important;
+  }
+  .nr {
+    width: 98px !important;
+    font-size: 20px !important;
+    margin-left: -63px !important;
+    margin-left: 77px !important;
+    height: 39px !important;
+  }
+  .lab3 {
+    margin-left: -33px !important;
+    font-size: 12px !important;
+  }
+  .screen8 button {
+    width: 97% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -16px !important;
+  }
+  .default_wrapper button {
+    width: 80% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -25px !important;
+  }
+  .screen8 .str {
+    width: 267px !important;
+    font-size: 21px !important;
+    margin-left: -2px !important;
+  }
+
+  .step2 button {
+    width: 86% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -6px !important;
+  }
   .form-m-d {
     width: 67px !important;
     text-align: center !important;
@@ -893,49 +706,66 @@ footer a {
     margin-left: -2px !important;
   }
   .default_box {
-    width: 132px;
-    padding: 26px 10px;
-    margin: 6px 10px;
-    border: 1px solid #1ac6da;
-    border-radius: 4px;
-    color: #1ac6da;
-    background-color: #fff;
-    cursor: pointer;
-    height: 86px;
-    margin-left: 30px;
+    width: 132px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 86px !important;
+    margin-left: 30px !important;
   }
   .default_wrapper .btns7 {
-    margin-left: -3px;
-    width: 143%;
-    height: 46px;
-    font-size: 20px;
+    margin-left: -3px !important;
+    width: 143% !important;
+    height: 46px !important;
+    font-size: 20px !important;
   }
   .form-m-d {
-    width: 86px;
-    text-align: center;
-    font-size: 14pt;
+    width: 86px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
   }
   .form-y {
-    width: 168px;
-    text-align: center;
-    font-size: 14pt;
+    width: 168px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
   }
   .form-row {
-    margin-left: 3px;
+    margin-left: 3px !important;
+  }
+  .default_box h3 {
+    margin-top: -1px !important;
+    font-size: 12px !important;
   }
 }
 .form_btn_big {
-  width: 50%;
+  width: 50% !important;
 }
 @media (max-width: 600px) {
   .form_btn_big {
     width: 85% !important;
   }
+  .step2 p {
+    margin-left: -24px !important;
+    font-size: 13px !important;
+  }
   .default_wrapper .btns7 {
-    margin-left: -3px;
-    width: 143%;
-    height: 46px;
-    font-size: 20px;
+    margin-left: -27px !important;
+    width: 143% !important;
+    height: 46px !important;
+    font-size: 20px !important;
+  }
+  .screen8 .form-row {
+    margin-left: 35px !important;
+  }
+  .step6 p {
+    margin-left: -66px;
+  }
+  .step10 p {
+    margin-left: -71px;
   }
   .form-m-d {
     width: 110px;
@@ -948,7 +778,7 @@ footer a {
     font-size: 18pt;
   }
   .form-row {
-    margin-left: 3px;
+    margin-left: -22px !important;
   }
   .screen8 {
     margin-left: 60px;
@@ -965,10 +795,10 @@ footer a {
     width: 50%;
   }
   .ort {
-    width: 261px;
-    height: 36px;
-    font-size: 20px;
-    margin-left: -63px;
+    width: 261px !important;
+    height: 36px !important;
+    font-size: 20px !important;
+    margin-left: -63px !important;
   }
   .str {
     width: 294px;
@@ -980,20 +810,26 @@ footer a {
     font-size: 12px;
   }
   .screen8 button {
-    width: 79%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    margin-left: -112px;
+    width: 79% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: -24px !important;
+  }
+  .step4 p {
+    margin-left: -56px;
   }
   .nr {
-    width: 79px;
-    height: 38px;
-    font-size: 17px;
-    margin-left: 70px;
+    width: 79px !important;
+    height: 38px !important;
+    font-size: 17px !important;
+    margin-left: 70px !important;
+  }
+  .screen9.form-row {
+    margin-left: 39px !important;
   }
 }
 
@@ -1018,53 +854,7 @@ footer a {
     margin-left: 3px;
   }
 }
-@media (max-width: 460px) {
-  .screen8 {
-    margin-left: 5px;
-  }
-  .plz {
-    width: 117px;
-    height: 42px;
-    font-size: 20px;
-  }
-  .lab {
-    font-size: 13px;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .ort {
-    width: 268px;
-    height: 42px;
-    font-size: 20px;
-    margin-left: -63px;
-  }
-  .str {
-    width: 288px;
-    font-size: 20px;
-    margin-left: -2px;
-  }
-  .lab3 {
-    margin-left: -33px;
-    font-size: 12px;
-  }
-  .screen8 button {
-    width: 90%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    margin-left: -41px;
-  }
-  .nr {
-    width: 98px;
-    font-size: 20px;
-    margin-left: -63px;
-    margin-left: 77px;
-  }
-}
+
 @media (max-width: 768px) {
   .default_box {
     width: 200px;
