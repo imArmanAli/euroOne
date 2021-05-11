@@ -84,7 +84,7 @@ function Default() {
             </h3>
           </div>
         </Link>
-        <p className="text-center">
+        <p className="pp text-center">
         <i className="fas fa-lock mr-1" aria-hidden="true"></i>
         Ihre Daten werden vertraulich behandelt und nicht an Dritte
         weitergegeben.

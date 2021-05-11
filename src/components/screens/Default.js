@@ -6,7 +6,7 @@ function Default() {
   const [clicked3, setClicked3] = useState(true);
   const [clicked4, setClicked4] = useState(true);
   return (
-    <div className="container mb-5 colored d-flex flex-column  justify-content-center align-items-center">
+    <div className="container def mb-5 colored d-flex flex-column  justify-content-center align-items-center">
       <h4 style={{ fontWeight: 400 }}>
         Welche Absicherungen <strong>wünschen</strong> Sie?
         <br />

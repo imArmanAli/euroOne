@@ -72,7 +72,7 @@ const Default = ({ setForm, formData, navigation }) => {
   };
 
   return (
-    <div className="container mb-5 colored step6 d-flex flex-column  justify-content-center align-items-center">
+    <div className="container mb-5 colored step6 step7 d-flex flex-column  justify-content-center align-items-center">
       <h4 style={{ fontWeight: 400 }}>
         Wie ist <strong>Ihr Geburtsdatum?</strong>
         <br />
@@ -151,7 +151,7 @@ const Default = ({ setForm, formData, navigation }) => {
             <i class="fas fa-angle-right" aria-hidden="true"></i> WEITER
           </button>
         </Link>
-        <p className="text-center">
+        <p className="pp text-center">
         <i className="fas fa-lock mr-1" aria-hidden="true"></i>
         Ihre Daten werden vertraulich behandelt und nicht an Dritte
         weitergegeben.

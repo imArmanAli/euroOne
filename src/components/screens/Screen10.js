@@ -5,7 +5,7 @@ function Screen2() {
   const [clicked1, setClicked1] = useState(true);
   const [clicked2, setClicked2] = useState(true);
   return (
-    <div className="container mb-5 colored step10 d-flex flex-column  justify-content-center align-items-center">
+    <div className="container mb-5 colored  scr10 step10 d-flex flex-column  justify-content-center align-items-center">
       <h4 style={{ fontWeight: 400 }}>
         <strong>Wieviel Wohnfläche </strong> sollen versichert werden?
       </h4>
@@ -29,7 +29,7 @@ function Screen2() {
             <i class="fas fa-angle-right" aria-hidden="true"></i> WEITER
           </button>
         </Link>
-        <p className="text-center">
+        <p className="pp text-center">
         <i className="fas fa-lock mr-1" aria-hidden="true"></i>
         Ihre Daten werden vertraulich behandelt und nicht an Dritte
         weitergegeben.

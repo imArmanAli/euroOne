@@ -11,7 +11,7 @@ const StepOne = ({ }) => {
     Wie kann ich Sie zur <strong>Angebotserstellung erreichen?</strong>
 <br />
 </h4>
-    <form class="row default_wrapper screen9 needs-validation" novalidate>
+    <form class="row default_wrapper screen9 step9 needs-validation" novalidate>
 
     <div class="form-row ">
       <div class="form-group col-md-6">
@@ -37,7 +37,7 @@ const StepOne = ({ }) => {
             <i class="fas fa-paper-plane" aria-hidden="true"></i>  JETZT ANGEBOT ERHALTEN
           </button>
         </Link>
-        <p className="text-center">
+        <p className="pp text-center">
         <i className="fas fa-lock mr-1" aria-hidden="true"></i>
         Ihre Daten werden vertraulich behandelt und nicht an Dritte
         weitergegeben.

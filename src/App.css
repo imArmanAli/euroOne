@@ -6,6 +6,7 @@ header {
 }
 .colored {
   background-color: white;
+  width: 50%;
 }
 br {
   height: 10px;
@@ -263,6 +264,10 @@ footer a {
   display: flex;
 }
 @media (max-width: 600px) {
+  .colored {
+    background-color: white;
+    width: 50%;
+  }
   .header-mobile {
     display: flex !important;
   }
@@ -327,14 +332,14 @@ footer a {
     height: 86px !important;
   }
   .default_wrapper button {
-    width: 82% !important;
-    color: #fff !important;
-    padding: 10px 5px !important;
-    margin: 20px 0 !important;
-    border: 2px solid #000 !important;
-    background: #000 !important;
-    border-radius: 4px !important;
-    margin-left: -93px !important;
+    width: 82%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -93px;
   }
   .screen9 {
     margin-left: 0;
@@ -400,6 +405,10 @@ footer a {
 }
 
 @media (max-width: 400px) {
+  .colored {
+    background-color: white;
+    width: 50%;
+  }
   .screen8 {
     margin-left: 26px !important;
   }
@@ -471,32 +480,49 @@ footer a {
   }
 }
 
-@media (max-width: 350px) {
-  .screen9 {
-    margin-left: -78px;
+@media (max-width: 360px) {
+  .colored {
+    background-color: white;
+    width: 100%;
   }
-  .screen9 button {
-    width: 97%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 35px;
-    margin-left: 76px;
-    font-size: 12px;
+  .default_wrapper {
+    width: 100%;
+    margin-left: -32px;
   }
-  .str {
-    width: 296px;
-    height: 36px;
+  .def .default_box {
+    width: 110px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 72px !important;
+    margin-left: 30px !important;
+  }
+  .default_box i {
+    font-size: 15px !important;
+    margin-top: -19px !important;
+  }
+  .def .default_box h3 {
+    margin-top: -4px !important;
+    font-size: 9px !important;
+  }
+  .def .default_wrapper button {
+    width: 93% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 21px !important;
+    height: 38px;
     font-size: 13px;
   }
-}
-
-@media (max-width: 350px) {
-  .default_box {
-    width: 91px !important;
+  .step2 .default_box {
+    width: 103px !important;
     padding: 26px 10px !important;
     margin: 6px 10px !important;
     border: 1px solid #1ac6da !important;
@@ -507,116 +533,186 @@ footer a {
     height: 86px !important;
     margin-left: 30px !important;
   }
-  .screen9 {
-    margin-left: -78px;
-  }
-  .screen9 button {
-    width: 97%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    height: 35px;
-    margin-left: 76px;
-    font-size: 12px;
-  }
-  .str {
-    width: 296px;
-    height: 36px;
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 350px) {
-  .form-m-d {
-    width: 81px;
-    text-align: center;
-    font-size: 13pt;
-  }
-  .form-group-custom {
-    padding: 2px;
-    margin-left: 0px;
-  }
-  .form-y {
-    width: 138px;
-    text-align: center;
-    font-size: 13pt;
-  }
-  .form-row {
-    margin-left: -17px;
-  }
-  .default_wrapper .btns7 {
-    margin-left: -23px;
-    width: 165%;
-    height: 39px;
-    font-size: 13px;
-  }
-  .screen8 {
-    margin-left: 26px !important;
-  }
-  .plz {
-    width: 82px !important;
-    height: 35px !important;
-    font-size: 18px !important;
-  }
-  .lab {
-    font-size: 13px;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .ort {
-    width: 193px !important;
-    height: 36px !important;
-    font-size: 20px !important;
-    margin-left: -65px !important;
-  }
-  .str {
-    width: 200px !important;
-    font-size: 20px !important;
-    margin-left: -2px !important;
-  }
-  .lab3 {
-    margin-left: -33px;
-    font-size: 12px;
-  }
-  .screen8 button {
-    width: 93% !important;
+  .step2 button {
+    width: 90% !important;
     color: #fff !important;
     padding: 10px 5px !important;
     margin: 20px 0 !important;
     border: 2px solid #000 !important;
     background: #000 !important;
     border-radius: 4px !important;
-    margin-left: -29px !important;
-    height: 43px !important;
-    font-size: 16px !important;
-  }
-  .nr {
-    height: 39px !important;
-    width: 74px !important;
-    font-size: 20px !important;
-    margin-left: 44px !important;
-  }
-}
-@media (max-width: 450px) {
-  .step10 p {
-    margin-left: -44px !important;
-  }
-  .step4 p {
-    margin-left: -34px !important;
+    margin-left: 7px !important;
+    height: 40px;
+    font-size: 14px;
   }
   .step2 p {
-    margin-left: -24px !important;
-    font-size: 13px !important;
+    margin-left: 19px !important;
+  }
+  .step10 p {
+    margin-left: -3px !important;
+    font-size: 13px;
+  }
+  .step4 .default_box {
+    width: 110px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 84px !important;
+    margin-left: 30px !important;
+  }
+  .step4 p {
+    margin-left: -3px !important;
+  }
+
+  .step5 .default_box {
+    width: 107px !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 86px !important;
+    margin-left: 30px !important;
+  }
+  .step5 .default_wrapper button {
+    width: 90% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 20px !important;
+  }
+  .step5 p {
+    margin-left: -3px;
+  }
+  .step6 .form_btn_big .default_box {
+    width: 108% !important;
+    padding: 26px 10px !important;
+    margin: 6px 10px !important;
+    border: 1px solid #1ac6da !important;
+    border-radius: 4px !important;
+    color: #1ac6da !important;
+    background-color: #fff !important;
+    cursor: pointer !important;
+    height: 57px !important;
+    margin-left: 20px !important;
+  }
+  .step6 .default_wrapper button {
+    width: 101% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 6px !important;
+  }
+  .step7 .form-m-d {
+    width: 63px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
+  }
+  .step7 .form-row {
+    margin-left: 2px !important;
+  }
+  .step7 .form-y {
+    width: 156px !important;
+    text-align: center !important;
+    font-size: 14pt !important;
+  }
+  .step7 .default_wrapper button {
+    width: 147% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 6px !important;
+  }
+  .step6 p {
+    margin-left: -3px !important;
+  }
+  .screen8 {
+    margin-left: -36px !important;
+  }
+  .step8 .ort {
+    width: 219px !important;
+    height: 36px !important;
+    font-size: 20px !important;
+    margin-left: -63px !important;
+  }
+  .screen8 .str {
+    width: 218px !important;
+    font-size: 21px !important;
+    margin-left: -2px !important;
+  }
+  .step8 .screen8 .nr {
+    width: 67px !important;
+    height: 38px !important;
+    font-size: 17px !important;
+    margin-left: 92px !important;
+  }
+  .step8 .lab3 {
+    margin-left: 60px !important;
+    font-size: 12px !important;
+  }
+  .step8 p {
+    margin-left: 70px;
+    font-size: 13px;
+  }
+  .screen8 button {
+    width: 96% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 33px !important;
+  }
+  .step9 .str {
+    width: 317px !important;
+    height: 43px !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .colored {
+    background-color: white;
+    width: 100%;
+  }
+  .default_wrapper {
+    width: 100%;
+    margin-left: 23px;
+  }
+  .step10 p {
+    margin-left: -44px;
+  }
+  .step4 .pp {
+    margin-left: -34px;
+  }
+  .scr2 .pp {
+    margin-left: -24px;
+    font-size: 13px;
+  }
+  .scr10 .pp {
+    margin-left: -44px;
   }
   .screen9 .form-row {
     margin-left: 4px !important;
   }
-  .step6 p {
-    margin-left: -30px !important;
+  .step6 .pp {
+    margin-left: -30px;
   }
   .form_btn_big .default_box {
     width: 89% !important;
@@ -630,11 +726,21 @@ footer a {
     height: 57px !important;
     margin-left: 28px !important;
   }
-  .ort {
-    width: 268px !important;
-    height: 42px !important;
-    font-size: 20px !important;
-    margin-left: -63px !important;
+  .screen8 .ort {
+    width: 231px;
+    height: 36px;
+    font-size: 20px;
+    margin-left: -57px;
+  }
+  .step8 .default_wrapper .b {
+    width: 93% !important;
+    color: #fff !important;
+    padding: 10px 5px !important;
+    margin: 20px 0 !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    border-radius: 4px !important;
+    margin-left: 25px !important;
   }
   .nr {
     width: 98px !important;
@@ -647,30 +753,31 @@ footer a {
     margin-left: -33px !important;
     font-size: 12px !important;
   }
-  .screen8 button {
-    width: 97% !important;
-    color: #fff !important;
-    padding: 10px 5px !important;
-    margin: 20px 0 !important;
-    border: 2px solid #000 !important;
-    background: #000 !important;
-    border-radius: 4px !important;
-    margin-left: -16px !important;
-  }
+
   .default_wrapper button {
-    width: 80% !important;
-    color: #fff !important;
-    padding: 10px 5px !important;
-    margin: 20px 0 !important;
-    border: 2px solid #000 !important;
-    background: #000 !important;
-    border-radius: 4px !important;
-    margin-left: -25px !important;
+    width: 80%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -25px;
+  }
+  .scr10 .default_wrapper button {
+    width: 100%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -25px;
   }
   .screen8 .str {
-    width: 267px !important;
-    font-size: 21px !important;
-    margin-left: -2px !important;
+    width: 267px;
+    font-size: 21px;
+    margin-left: -2px;
   }
 
   .step2 button {
@@ -700,10 +807,10 @@ footer a {
     margin-left: -2px !important;
     font-size: 15px !important;
   }
-  .str {
-    width: 402px !important;
-    font-size: 21px !important;
-    margin-left: -2px !important;
+  .screen8 .str {
+    width: 263px;
+    font-size: 21px;
+    margin-left: -2px;
   }
   .default_box {
     width: 132px !important;
@@ -745,12 +852,26 @@ footer a {
   width: 50% !important;
 }
 @media (max-width: 600px) {
+  .colored {
+    background-color: white;
+    width: 50%;
+  }
   .form_btn_big {
     width: 85% !important;
   }
-  .step2 p {
-    margin-left: -24px !important;
-    font-size: 13px !important;
+  .step10 button {
+    width: 83%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -83px;
+  }
+  .step2 .pp {
+    margin-left: -24px;
+    font-size: 13px;
   }
   .default_wrapper .btns7 {
     margin-left: -27px !important;
@@ -761,10 +882,10 @@ footer a {
   .screen8 .form-row {
     margin-left: 35px !important;
   }
-  .step6 p {
+  .step6 .pp {
     margin-left: -66px;
   }
-  .step10 p {
+  .step10 .pp {
     margin-left: -71px;
   }
   .form-m-d {
@@ -795,10 +916,10 @@ footer a {
     width: 50%;
   }
   .ort {
-    width: 261px !important;
-    height: 36px !important;
-    font-size: 20px !important;
-    margin-left: -63px !important;
+    width: 260px;
+    height: 36px;
+    font-size: 20px;
+    margin-left: -63px;
   }
   .str {
     width: 294px;
@@ -810,16 +931,16 @@ footer a {
     font-size: 12px;
   }
   .screen8 button {
-    width: 79% !important;
-    color: #fff !important;
-    padding: 10px 5px !important;
-    margin: 20px 0 !important;
-    border: 2px solid #000 !important;
-    background: #000 !important;
-    border-radius: 4px !important;
-    margin-left: -24px !important;
+    width: 79%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: -24px;
   }
-  .step4 p {
+  .step4 .pp {
     margin-left: -56px;
   }
   .nr {
@@ -856,6 +977,10 @@ footer a {
 }
 
 @media (max-width: 768px) {
+  .colored {
+    background-color: white;
+    width: 100%;
+  }
   .default_box {
     width: 200px;
     padding: 26px 10px;
@@ -875,19 +1000,10 @@ footer a {
     margin-left: 177px;
   }
   .default_wrapper .btns7 {
-    margin-left: 174px;
-  }
-  .default_wrapper button {
-    width: 73%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
+    margin-left: 128px;
   }
   .screen8 {
-    margin-left: 0px;
+    margin-left: -32px;
   }
   .nr {
     width: 100px;
@@ -900,33 +1016,27 @@ footer a {
     font-size: 12px;
   }
   .ort {
-    width: 279px;
+    width: 260px;
     height: 47px;
     font-size: 20px;
     margin-left: -63px;
   }
-  .default_wrapper button {
-    width: 62%;
-    color: #fff;
-    padding: 10px 5px;
-    margin: 20px 0;
-    border: 2px solid #000;
-    background: #000;
-    border-radius: 4px;
-    margin-left: 83px;
+  .step9 .pp {
+    margin-left: 57px;
+    font-size: 17px;
   }
   .screen9 {
     margin-left: 0px;
   }
   .screen9 .str {
-    width: 409px !important;
-    height: 47px !important;
-    font-size: 20px !important;
+    width: 409px;
+    height: 47px;
+    font-size: 20px;
   }
   .screen9 .form-row {
     margin-left: 140px;
   }
-  .screen9 button {
+  .step9 button {
     width: 62%;
     color: #fff;
     padding: 10px 5px;
@@ -936,47 +1046,71 @@ footer a {
     border-radius: 4px;
     margin-left: 11px;
   }
-  .step2 p {
-    margin-left: 79px;
-  }
   .step2 button {
-    width: 62%;
+    width: 80%;
     color: #fff;
     padding: 10px 5px;
     margin: 20px 0;
     border: 2px solid #000;
     background: #000;
     border-radius: 4px;
-    margin-left: -53px;
+    margin-left: -41px;
   }
+  .step2 p {
+    margin-left: 95px;
+    font-size: 16px;
+  }
+
   .step10 button {
-    width: 62%;
+    width: 83%;
     color: #fff;
     padding: 10px 5px;
     margin: 20px 0;
     border: 2px solid #000;
     background: #000;
     border-radius: 4px;
-    margin-left: -28px;
+    margin-left: -3px;
+  }
+  .step10 .pp {
+    margin-left: 44px;
+    font-size: 17px;
+  }
+  .step4 .pp {
+    margin-left: 44px;
+    font-size: 17px;
+  }
+  .step5 .pp {
+    margin-left: 44px;
+    font-size: 17px;
   }
   .step5 button {
-    width: 62%;
+    width: 78%;
     color: #fff;
     padding: 10px 5px;
     margin: 20px 0;
     border: 2px solid #000;
     background: #000;
     border-radius: 4px;
-    margin-left: -18px;
+    margin-left: -35px;
   }
   .step6 button {
-    width: 70%;
+    width: 87%;
     color: #fff;
     padding: 10px 5px;
     margin: 20px 0;
     border: 2px solid #000;
     background: #000;
     border-radius: 4px;
-    margin-left: -5px;
+    margin-left: 7px;
+  }
+  .step8 button {
+    width: 65%;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 20px 0;
+    border: 2px solid #000;
+    background: #000;
+    border-radius: 4px;
+    margin-left: 62px;
   }
 }

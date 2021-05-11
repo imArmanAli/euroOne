@@ -11,7 +11,7 @@ const StepOne = ({ }) => {
     Angaben zu <strong>Ihrem Wohnort </strong>
 <br />
 </h4>
-    <form class="row default_wrapper screen8 needs-validation" novalidate>
+    <form class="row default_wrapper screen8 step8 needs-validation" novalidate>
 
     <div class="form-row ">
       <div class="form-group col-md-6">
@@ -34,7 +34,7 @@ const StepOne = ({ }) => {
       </div>
     </div>
     <Link style={{ margin: "0 10px", width: "100%" }} to="/Step9">
-          <button>
+          <button className="b">
             <i class="fas fa-angle-right" aria-hidden="true"></i> WEITER
           </button>
         </Link>
